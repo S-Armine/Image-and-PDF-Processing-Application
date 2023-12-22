@@ -6,7 +6,7 @@ import ij.process.ImageProcessor;
 import java.awt.*;
 
 public class Stamp {
-    private final String fileLocation = "src/main/resources/StampImage/AcademyStamp.jpeg";
+    private final String fileLocation = "src/main/resources/StampImage/AcademyStamp.png";
     private final ImagePlus image = IJ.openImage(fileLocation);
 
     public void showImage() {
